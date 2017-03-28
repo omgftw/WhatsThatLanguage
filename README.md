@@ -1,7 +1,5 @@
 # What's That Language
 
-## Currently waiting for Material 2 to be updated for Angular 4. Webpack is currently failing due to animations module change in Angular 4.
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
 ## Development server
