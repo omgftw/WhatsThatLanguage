@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class Testing2Page {
+export class WhatsThatLanguagePage {
   navigateTo() {
     return browser.get('/');
   }

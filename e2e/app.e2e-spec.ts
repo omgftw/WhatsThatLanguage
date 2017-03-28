@@ -1,10 +1,10 @@
-import { Testing2Page } from './app.po';
+import { WhatsThatLanguagePage } from './app.po';
 
-describe('testing2 App', () => {
-  let page: Testing2Page;
+describe('WhatsThatLanguage App', () => {
+  let page: WhatsThatLanguagePage;
 
   beforeEach(() => {
-    page = new Testing2Page();
+    page = new WhatsThatLanguagePage();
   });
 
   it('should display message saying app works', () => {
