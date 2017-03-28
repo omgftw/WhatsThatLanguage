@@ -1,0 +1,20 @@
+<!--Empty div to add some padding to the top-->
+<div id="header-padding" class="form-group"></div>
+
+<div id="container" class="container-fluid">
+  <div class="row">
+    <div id="menu" class="col-xs-12 form-group">
+      <button id="menu-home" md-raised-button routerLink="/home" routerLinkActive="router-active">
+        <md-icon>home</md-icon>
+      </button>
+
+      <button id="menu-game" md-raised-button routerLink="/game" routerLinkActive="router-active">
+        <md-icon>videogame_asset</md-icon>
+      </button>
+    </div>
+    <!--</div>-->
+    <div id="content" class="col-xs-12">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
