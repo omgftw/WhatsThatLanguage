@@ -21,6 +21,7 @@ export class CodeComponent implements OnInit, AfterViewChecked, OnChanges {
   gistsGotten: boolean = false;
   highlighted: boolean = false;
   showSpinner = false;
+  showCodeUrl = false;
 
   constructor(gistService: GistService) {
     this.gistService = gistService;
