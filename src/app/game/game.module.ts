@@ -5,7 +5,7 @@ import { GameComponent } from './game.component';
 import { CodeComponent } from './code/code.component';
 import { GistService } from './services/gist.service';
 import { SettingsComponent } from './settings/settings.component';
-import { MaterialModule } from '@angular/material';
+import { MaterialModule, LiveAnnouncer } from '@angular/material';
 
 
 @NgModule({
@@ -20,7 +20,8 @@ import { MaterialModule } from '@angular/material';
     CodeComponent
   ],
   providers: [
-    GistService
+    GistService,
+    LiveAnnouncer
   ]
 })
 export class GameModule { }

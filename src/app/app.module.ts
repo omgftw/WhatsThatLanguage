@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AppRoutingModule } from './app-routing.module';
-import { MaterialModule } from '@angular/material';
+import { MaterialModule, LiveAnnouncer } from '@angular/material';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 // Third party JS
@@ -28,7 +28,9 @@ import { HomeComponent } from './core/home/home.component';
     MaterialModule,
     BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [
+    LiveAnnouncer
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
