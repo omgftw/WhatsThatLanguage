@@ -8,6 +8,15 @@
 # dependencies
 /node_modules
 
+# firebase
+/functions
+/.firebaserc
+/firebase.json
+/database.rules.json
+
+# yarn
+/yarn.lock
+
 # IDEs and editors
 /.idea
 .project

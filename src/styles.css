@@ -11,3 +11,10 @@ body {
 button.router-active {
   background-color: #1565C0
 }
+
+.loading-container {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+}
