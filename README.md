@@ -3,7 +3,7 @@
 ## Running the application
 
 ```shell
-npm install -g @angular/cli@1.0.0
+npm install -g @angular/cli@latest
 git clone https://github.com/omgftw/WhatsThatLanguage.git
 cd WhatsThatLanguage
 npm install
